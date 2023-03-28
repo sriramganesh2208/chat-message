@@ -1,0 +1,55 @@
+.sidebar{
+    margin: 10px;
+    width: 35%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.sidebar-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: -1px 4px 20px -6px black;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    height: 6%;
+}
+.sidebar-header:hover{
+    box-shadow: -1px 4px 20px -6px black;
+    border: 2px solid white;
+    border-radius: 40px;
+    transform: scale(1.02);
+    transition: tranform 1950ms;
+}
+
+.search{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+   margin-top: 5px;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: center;
+   box-shadow: -1px 4px 20px -6px black;
+   border: none;
+   border: 2px solid white;
+   outline: none;
+}
+
+.sidebar-chat{
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 5px;
+    box-shadow: -1px 4px 20px -6px black;
+    overflow-y: scroll;
+}
+
+.sidebar-chat::-webkit-scrollbar{
+    display: none;
+}
+
+
+
